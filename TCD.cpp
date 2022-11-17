@@ -691,21 +691,11 @@ void calc_prune()
 void pinfo(int qid, const char* graphname, int tcdcell, long long clapse, long long oclapse)
 {
 	printf("Graph Name:%s\n", graphname);
-	printf("Platform:Omen Laptop15\n");
 	printf("Query:%d\t%d\t%d\n", q[qid].l, q[qid].r, q[qid].k);
 	printf("TCD Time Clapse(nanoseconds):%lld\n", clapse);
 	printf("TCD Accessed Cell:%d\n", tcdcell);
 	printf("OTCD Time Clapse(nanoseconds):%lld\n", oclapse);
 	printf("OTCD Accessed Cell:%d\n", cntinfo[INFO::CELL]);
-	printf("SQZ:%d\n", cntinfo[INFO::SQZ]);
-	printf("RLC:%d\n", cntinfo[INFO::RLC]);
-	printf("TAG:%d\n", cntinfo[INFO::TAG]);
-	printf("PoR:%d\n", cntinfo[INFO::PoR]);
-	printf("PoU:%d\n", cntinfo[INFO::PoU]);
-	printf("PoL:%d\n", cntinfo[INFO::PoL]);
-	printf("CPoR:%d\n", cntinfo[INFO::CPoR]);
-	printf("CPoU:%d\n", cntinfo[INFO::CPoU]);
-	printf("CPoL:%d\n", cntinfo[INFO::CPoL]);
 }
 
 void proctti()
