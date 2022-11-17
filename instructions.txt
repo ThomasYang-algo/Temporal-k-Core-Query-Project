@@ -20,5 +20,5 @@ outputed to console in following format:
  	OTCD Accessed Cell:cell              //number of temporal k-core processed.
 
 If you want to decide what information to gather in OTCD or even use the code in your own project, you need to use "tcd" function, "otcd" function
-and all related functions. The function for information gathering is "process", you can modify it for your purpose. Actually we are working on a application
-for building a GUI of all funcionalities.
+and all related functions. The function for information gathering is "process", you can modify it for your purpose. Actually we are working on an 
+application for building a GUI of all funcionalities.
