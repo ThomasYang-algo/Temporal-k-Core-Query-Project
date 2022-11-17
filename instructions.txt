@@ -11,4 +11,8 @@ the obtained executable file is launched followed by two arguments:dataset file 
 file should only contain the edge set in form of "u v t", with space as separator. The testcase file should only contain a group
 of queries line by line, in form of "ts te k", with TAB as separator. Notice that the code does not allow for parallel edges with
 identical timestamps. Because we think such edges are redundant. If your dataset contain such edges, make sure they are
-filtered before running the code to avoid unexpected issues.
+filtered before running the code to avoid unexpected issues. After running, the corresponding information retrieved will be 
+outputed to console in following format:
+
+
+Use OTCD in other 
