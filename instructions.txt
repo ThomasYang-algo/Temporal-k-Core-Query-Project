@@ -17,6 +17,6 @@ outputed to console in following format:
 	Query:ts te k        //processed query
 	TCD Time Clapse(nanoseconds):clapse  //Time consumed by TCD
 	OTCD Time Clapse(nanoseconds):oclapse //Time consumed by OTCD
- OTCD Accessed Cell:cell              //number of temporal k-core processed.
+ 	OTCD Accessed Cell:cell              //number of temporal k-core processed.
 
 Use OTCD in other 
