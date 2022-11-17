@@ -13,6 +13,10 @@ of queries line by line, in form of "ts te k", with TAB as separator. Notice tha
 identical timestamps. Because we think such edges are redundant. If your dataset contain such edges, make sure they are
 filtered before running the code to avoid unexpected issues. After running, the corresponding information retrieved will be 
 outputed to console in following format:
-
+	Graph Name:graphname //name of the graph
+	Query:ts te k        //processed query
+	TCD Time Clapse(nanoseconds):clapse  //Time consumed by TCD
+	OTCD Time Clapse(nanoseconds):oclapse //Time consumed by OTCD
+ OTCD Accessed Cell:cell              //number of temporal k-core processed.
 
 Use OTCD in other 
