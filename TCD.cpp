@@ -693,7 +693,6 @@ void pinfo(int qid, const char* graphname, int tcdcell, long long clapse, long l
 	printf("Graph Name:%s\n", graphname);
 	printf("Query:%d\t%d\t%d\n", q[qid].l, q[qid].r, q[qid].k);
 	printf("TCD Time Clapse(nanoseconds):%lld\n", clapse);
-	printf("TCD Accessed Cell:%d\n", tcdcell);
 	printf("OTCD Time Clapse(nanoseconds):%lld\n", oclapse);
 	printf("OTCD Accessed Cell:%d\n", cntinfo[INFO::CELL]);
 }
