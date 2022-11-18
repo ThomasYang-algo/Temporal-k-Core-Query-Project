@@ -13,9 +13,9 @@ Experiments are conducted on Windows10 x64 with 64GB memory with Visual Studio 2
 
 1. Create a VS 2019 project and add the source code(i-PHC.cpp OR TCD.cpp) to the project.
 2. Build the project with x64 configuration and generate the executable file.
-3. Add the graph file and testcase file for testing to the correct directory.
+3. Add the graph file and testcase file for testing to the directory of executable file.
 4. Run the executable file with command.
 
-The command for running the executable file is set as follows:```.\TCD.exe [graph file] [testcase file]```, where graph should only contain the edge set in form of "u v t", with space as separator, and testcase file should only contain a group of queries line by line, in form of "ts te k", with TAB as separator. Please refer to the given example: graph_format.txt, query_format.txt.
+The command for running the executable file is set as follows:```.\TCD.exe [graph file] [testcase file]```, where graph file should only contain the edge set in form of "u v t", with **SPACE** as separator, and testcase file should only contain a group of queries line by line, in form of "ts te k" with **TAB** as separator. Please refer to the given example: graph-format.txt, query-format.txt.
 
 
