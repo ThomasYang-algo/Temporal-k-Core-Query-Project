@@ -16,4 +16,6 @@ Experiments are conducted on Windows10 x64 with 64GB memory with Visual Studio 2
 3. Add the graph file and testcase file for testing to the correct directory.
 4. Run the executable file with command.
 
-The command for running the executable file is set as follows:```.\TCD.exe [graph file] [testcase file]```
+The command for running the executable file is set as follows:```.\TCD.exe [graph file] [testcase file]```, where graph should only contain the edge set in form of "u v t", with space as separator, and testcase file should only contain a group of queries line by line, in form of "ts te k", with TAB as separator. Please refer to the given example: graph_format.txt, query_format.txt.
+
+
