@@ -24,3 +24,6 @@ After running the executable file, queries in the testcase file will be processe
 3. The time consumed by TCD
 4. The time consumed by OTCD
 5. Total number of obtained temporal k-core in query
+
+## Contact
+If you have any questions, contact us by sending an email to clock@whu.edu.cn / thomasyang@whu.edu.cn
