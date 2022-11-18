@@ -18,4 +18,9 @@ Experiments are conducted on Windows10 x64 with 64GB memory with Visual Studio 2
 
 The command for running the executable file is set as follows:```.\TCD.exe [graph file] [testcase file]```, where graph file should only contain the edge set in form of "u v t", with **SPACE** as separator, and testcase file should only contain a group of queries line by line, in form of "ts te k" with **TAB** as separator. Please refer to the given example: graph-format.txt, query-format.txt.
 
-
+After running the executable file, queries in the testcase file will be processed one by one through TCD and OTCD. For each processed query, multiple lines containing information of the query will be printed:
+1. The name of graph
+2. The processed query
+3. The time consumed by TCD
+4. The time consumed by OTCD
+5. Total number of obtained temporal k-core in query
