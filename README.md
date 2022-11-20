@@ -28,13 +28,13 @@ After running the executable file, queries in the testcase file will be processe
 ## Reproduction
 Hardware: Windows10 x64 machine with 64 gigabytes memory and 20 gigabytes space.
 
-To facilitate reproduction of experiments in paper, we create two customized packages which contains VS2019 project and testcases for experiments. The link is shared below:
+To facilitate reproduction of experiments in paper, we create two customized packages which contains customized vs2019 project of iPHC-TCQ and TCD/OTCD repectively. The link is shared below:
 
 **link**: https://pan.baidu.com/s/1cCG0jOofbi1jW1-2XmGxbw
 
 **password**: dn3s
 
-The default configuration is Debug with x64, where x64 is necessary for compilation. In the directory of output file, we preserve the graph and query needed to reproduce corresponding figures or tables in paper. Recommended steps of reproduction are concluded below:
+The default configuration is Debug with x64, under whose output file directory, we preserve all graphs and queries needed for reproducing corresponding figures or tables in paper. Recommended steps of reproduction are concluded below:
 
 1. Build the project in Debug and x64.
 2. Specify the graph file and query file by adding debugging arguments in project's attributes.
