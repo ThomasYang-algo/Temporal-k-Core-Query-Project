@@ -38,5 +38,9 @@ The default configuration is Debug with x64, where x64 is necessary for compilat
 2. Specify the graph file and query file by adding debugging arguments in project's attributes.
 3. Press **"local windows debugger"** button to start running.
 
+For example, to reproduce the diagram of graph CollegeMsg in Figure 7, set the debugging arguments as ``.\graph\CollegeMsg.txt .\query\CollegeMsg-q.txt``.
+
+
+
 ## Contact
 If you have any questions, contact us by sending an email to clock@whu.edu.cn / thomasyang@whu.edu.cn
