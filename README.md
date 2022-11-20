@@ -28,7 +28,7 @@ After running the executable file, queries in the testcase file will be processe
 ## Reproduction
 Hardware: Windows10 x64 machine with 64 gigabytes memory and 20 gigabytes space.
 
-To facilitate reproduction of experiments in paper, we create two customized packages which contains customized vs2019 project of iPHC-TCQ and TCD/OTCD repectively. The link is shared below:
+To facilitate reproduction of experiments in paper, we create two packages which contains customized vs2019 project of iPHC-TCQ and TCD/OTCD repectively. The link is shared below:
 
 **link**: https://pan.baidu.com/s/1cCG0jOofbi1jW1-2XmGxbw
 
@@ -40,13 +40,29 @@ The default configuration is Debug with x64, under whose output file directory, 
 2. Specify the graph file and query file by adding debugging arguments in project's attributes.
 3. Press **"local windows debugger"** button to start running.
 
-For example, to reproduce the diagram of graph CollegeMsg in Figure 7, set the debugging arguments as: 
+For example, to reproduce the diagram of graph CollegeMsg in Figure 7 of paper, set the debugging arguments as: 
 
 ``.\graph\CollegeMsg.txt .\query\CollegeMsg-q.txt``.
 
-Macros are adopted for saving time and memory in reproduction. When reproducing Table 4, enable the preprocessor's option ``CALC_PRUNE``, otherwise disable it.
+Macros are also adopted for saving time and memory in reproduction. When reproducing Table 4, enable the preprocessor's option ``CALC_PRUNE`` than rebuild the project, otherwise disable it.
 
+Output information for each query without ``CALC_PRUNE`` are:
 
+1. Graph Name: The graph name
+2. Platform: (Ignore this)
+3. Query: The processed query [ts, te, k]
+4. TCD Time Clapse: Time consumption of TCD for resolving the query
+5. TCD Accessed Cell: Number of Cells accessed by TCD
+6. OTCD Time Clapse: Time consumption of OTCD for resolving the query
+
+If ``CALC_PRUNE`` is enabled, a few extra lines will be included:
+
+1. PoR: Times of PoR triggered
+2. PoU: Times of PoU triggered
+3. PoL: Times of PoL triggered
+4. CPoR: Number of cells pruned by PoR
+5. CPoU: Number of cells pruned by PoU
+6. CPoL: Number of cells pruned by PoL
 
 ## Contact
 If you have any questions, contact us by sending an email to clock@whu.edu.cn / thomasyang@whu.edu.cn
