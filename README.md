@@ -27,8 +27,10 @@ After running the executable file, queries in the testcase file will be processe
 
 ## Reproduction
 To facilitate reproduction of experiments in paper, we create two customized packages which contains VS2019 project and testcases for experiments. The link is shared below:
-link: https://pan.baidu.com/s/1cCG0jOofbi1jW1-2XmGxbw
-password: dn3s
+
+**link**: https://pan.baidu.com/s/1cCG0jOofbi1jW1-2XmGxbw
+
+**password**: dn3s
 
 
 ## Contact
