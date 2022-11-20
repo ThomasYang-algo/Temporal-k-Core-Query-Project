@@ -32,6 +32,11 @@ To facilitate reproduction of experiments in paper, we create two customized pac
 
 **password**: dn3s
 
+The default configuration is Debug with x64, where x64 is necessary for compilation. In the directory of output file, we preserve the graph and query needed to reproduce corresponding figures or tables in paper. Recommended steps of reproduction are concluded below:
+
+1. Build the project in Debug and x64.
+2. Specify the graph file and query file by adding debugging arguments in project's attributes.
+3. Press **local windows debugger** button to start running.
 
 ## Contact
 If you have any questions, contact us by sending an email to clock@whu.edu.cn / thomasyang@whu.edu.cn
