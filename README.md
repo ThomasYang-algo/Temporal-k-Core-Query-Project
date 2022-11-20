@@ -25,5 +25,11 @@ After running the executable file, queries in the testcase file will be processe
 4. The time consumed by OTCD
 5. Total number of obtained temporal k-core in query
 
+## Reproduction
+To facilitate reproduction of experiments in paper, we create two customized packages which contains VS2019 project and testcases for experiments. The link is shared below:
+link: https://pan.baidu.com/s/1cCG0jOofbi1jW1-2XmGxbw
+password: dn3s
+
+
 ## Contact
 If you have any questions, contact us by sending an email to clock@whu.edu.cn / thomasyang@whu.edu.cn
