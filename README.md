@@ -52,8 +52,9 @@ Output information for each query without ``CALC_PRUNE`` are:
 2. Platform: (Ignore this)
 3. Query: The processed query [ts, te, k]
 4. TCD Time Clapse: Time consumption of TCD for resolving the query
-5. TCD Accessed Cell: Number of Cells accessed by TCD
+5. TCD Accessed Cell: Number of Cell accessed by TCD
 6. OTCD Time Clapse: Time consumption of OTCD for resolving the query
+7. OTCD Accessed Cell: Number of Cell accessed by OTCD
 
 If ``CALC_PRUNE`` is enabled, a few extra lines will be included:
 
