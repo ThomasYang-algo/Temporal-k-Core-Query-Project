@@ -26,7 +26,7 @@ After running the executable file, queries in the testcase file will be processe
 5. Total number of obtained temporal k-core in query
 
 ## Reproduction
-Hardware: Windows10 x64 machine with 64 gigabytes memory and 20 gigabytes space.
+**Hardware**: Windows10 x64 machine with 64 gigabytes memory and 20 gigabytes space.
 
 To facilitate reproduction of experiments in paper, we create two packages which contains customized vs2019 project of iPHC-TCQ and TCD/OTCD repectively. The link is shared below:
 
