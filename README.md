@@ -42,7 +42,7 @@ The default configuration is Debug with x64, under whose output file directory, 
 
 For example, to reproduce the diagram of graph CollegeMsg in Figure 7 of paper, set the debugging arguments as: 
 
-``.\graph\CollegeMsg.txt .\query\CollegeMsg-q.txt``.
+``.\Figure7\graph\CollegeMsg.txt .\Figure7\query\CollegeMsg-q.txt``.
 
 Macros are also adopted for saving time and memory in reproduction. When reproducing Table 4, enable the preprocessor's option ``CALC_PRUNE`` than rebuild the project, otherwise disable it.
 
